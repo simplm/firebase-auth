@@ -1,7 +1,3 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/newco-search-1/firebase', '.' ]
-- name: 'gcr.io/cloud-builders/npm'
-  args: [ 'install' ]
 - name: 'gcr.io/newco-search-1/firebase'
   args: [ 'deploy', '-P', 'newco-search-1', '--only', 'hosting', '--token', '1/U2uOEOGLKHN7ljr930It8IvPVAZdttRyUI9MMSXo1dg']
