@@ -4,4 +4,4 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: [ 'install' ]
 - name: 'gcr.io/newco-search-1/firebase'
-  args: [ 'deploy', '-P', 'newco-search-1', '--only', 'hosting', '--token', 'AIzaSyA7EcZm2ZJNaJXw9l8z9p653WmyAqG7EIg']
+  args: [ 'deploy', '-P', 'newco-search-1', '--only', 'hosting', '--token', '1/U2uOEOGLKHN7ljr930It8IvPVAZdttRyUI9MMSXo1dg']
