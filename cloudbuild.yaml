@@ -8,6 +8,4 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: [ 'run', 'build.prod' ]
 - name: 'gcr.io/newco-search-1/firebase'
-  args: [ 'deploy', '-P', 'firebase-auth-class-3', '--token', 'AIzaSyA7EcZm2ZJNaJXw9l8z9p653WmyAqG7EIg']
-  images:
-- 'gcr.io/newco-search-1/firebase'
+  args: [ 'deploy', '-P', 'firebase-auth-class-3', '--token', 'AIzaSyA7EcZm2ZJNaJXw9l8z9p653WmyAqG7EIg'
